@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Real-Time Text Display</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Real-Time Text Display</h1>
+    <input 
+      type="text" 
+      id="inputText" 
+      placeholder="Type something..." 
+      oninput="updateText()" 
+      class="input" 
+    />
+    <div class="result" id="displayText">
+      <p></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
